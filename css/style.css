@@ -1,10 +1,688 @@
+/* AC_Esq_Senha.html*/
+
+header h1{
+    display: flex;
+    font-size: 25px;
+   justify-content: center;
+   align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .E-mail p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+ 
+.E-mail input{
+    display: flex;
+    margin-bottom: 45px;
+    height: 25px;
+}
+ 
+ .Senha p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+ .Senha input{
+    margin-bottom: 190px;
+    height: 25px;
+ }
+ 
+ footer a{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column ;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+ }
+ 
+
+
+ /*AC_TelaPerfil.html*/
+
+
+ header{
+     display: flex;
+     flex-direction: row;
+ }
+ header img{
+     border-radius: 50%;
+     margin-top: 30px;
+     margin-left: 20px;
+     height: 60px;
+     width: 60px;
+     display: flex;
+ }
+
+ .Publicações p{
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: -45px; 
+}
+
+.Publicações h1{
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+ .Seguidores p{
+     font-size: 15px;
+     margin-left: 195px;
+     margin-top: -95px;
+ }
+
+ .Seguidores h1{
+    font-size: 15px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.Seguindo p{
+    font-size: 15px;
+    margin-left: 268px;
+    margin-top: -94px;
+}
+
+.Seguindo h1{
+    font-size: 15px;
+    flex-direction: row;
+    margin-left: 235px;
+    margin-top: 15px;
+}
+
+.Biografia h1{
+    font-size: 15px;
+    margin-top: -18px;
+    margin-bottom: 15px;
+    margin-left: -150px;
+}
+
+.Editarperfil h1{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -150px;
+}
+
+main img{
+    height: 84px;
+    width: 84px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+ /*footer{
+    display: flex;
+    justify-content: flex-start;
+    height: 10px;
+    margin-top: 5px;
+ }*/
+
+ footer img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.ImgHome img{  
+    margin-left: 0%;
+    margin-left: -230px;
+ }
+
+ .ImgBusca img{
+    margin-top: -50px;
+    margin-right: 80px;
+}
+
+.ImgMensagem img{
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.ImgTelaPerfil img{
+    margin-top: -50px;
+    margin-left: 220px;
+}
+
+
+/* AC_TelaBusca.html*/
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgLupa img{
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.BarradePesquisa input{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 65px;
+    margin-top: -30px;
+    height: 25px;
+    width: 75%;
+}
+
+main h1{
+    margin-top: 220px;
+    font-size: 20px;
+    margin-bottom: 190px;
+}
+
+.ImgPerfil img{
+    margin-top: -45px;
+    margin-left: 210px;
+}
+
+/*AC_TelaLogin.html*/
+ 
+.tudo{
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.Titulo p{
+    font-size: 40px;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.email{
+    margin-bottom: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    width:200px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.email label{
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size:17px;
+}
+
+.email input{
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 96%;
+    margin-top: 4px;
+}
+.senha{
+    margin-bottom: 70px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.senha label{
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size:19px;
+}
+
+.senha input{
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 96%;
+    margin-top: 5px;
+}
+
+.botao{
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.botao button{
+    height: 45px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.esqueceu{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.esqueceu a{
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*AC_TelaMsg.html*/
+
+.tudo{
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Titulo p{
+    font-size: 35px;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.um{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+    border-bottom: transparent;
+}
+.um img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.um p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+.dois{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+    border-bottom: transparent;
+}
+.dois img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dois p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+.tres{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+    border-bottom: transparent;
+}
+.tres img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.tres p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+.quatro{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+    border-bottom: transparent;
+}
+.quatro img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.quatro p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+.cinco{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+    border-bottom: transparent;
+}
+.cinco img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.cinco p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+.seis{
+    flex-direction: row;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-left: white;
+    border-right: white;
+}
+.seis img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    text-align: start;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.seis p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 22px;
+}
+footer a img{
+    margin-top: 30px;
+    margin-bottom:15px;
+    text-align: start;
+    height: 30px;
+    width: 30px;
+    align-items: flex-end;
+}
+
+/*AC_TelaHome.html*/
+
+.tudo{
+    flex-direction:column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.usuario {
+    flex-direction: row-reverse;
+    display: flex;
+    text-align: start;
+    justify-content: flex-end;
+    margin-top: 10px;
+    align-items: center; 
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.usuario img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: start;
+    justify-content: start;
+}
+
+.usuario p{
+    font-size: 15px;
+    text-align: start;
+    justify-content: start;
+}
+.foto img{
+    height:300px ;
+    width: 250px;
+    text-align: start;
+    margin-top: 5px;
+}
+.comentario{
+    margin-top: -220px;
+    text-align: start;
+    font-size:10px;
+}
+.comentario p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-left: transparent;
+    border-right: transparent;
+}
+.legenda{
+    margin-top: -185px;
+    text-align: start;
+    font-size: 15px;
+}
+.legenda p{
+    margin-top: 1px;
+}
+.descer{
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 50px;
+}
+.descer h3 p{
+    margin-top: 40px;
+    text-align: center;
+    size: 20px;
+    align-items: center;
+}
+
+/*footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 35px;
+    width: 100%;
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+}
+footer img{
+    display: flex;
+    margin-top: -10px;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}*/
+
+.imghome img{
+    display: flex;
+    margin-right: 240px;
+    height: 45px;
+    width: 45px;
+}
+
+.imglupa img{
+    display: flex;
+    margin-top: -60px;
+    margin-left: -80px;
+    height: 45px;
+    width: 45px;
+}
+
+.imgmsg img{
+    display: flex;
+    margin-left: 90px;
+    margin-top: -60px;
+    height: 45px;
+    width: 45px;
+}
+
+.imgperfil img{
+    margin-top: -58px;
+    margin-left: 240px;
+    display: flex;
+    height: 45px;
+    width: 45px;
+}
+
+
+/* Os códigos de css da AC de INW acabam aqui*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /*TesteDeCSS.html*/
  /*
   tag - colocamos apenas o nome da tag
  .class - iniciamos com ponto
  #id - iniciamos com hashtag 
  */
- header{
+ /*header{
      width: 100%;
      display: flex;
      justify-content: center;
@@ -14,16 +692,14 @@
  header h1{
      text-align: center;
  }
+ */
  
  
  
  
  
  
- 
- 
- 
- 
+
  
  
  /*html{ ExPerfil.html
